@@ -1,0 +1,134 @@
+
+body {
+  margin: 0;
+  padding: 0;
+   background-image: url('/images/quiz.avif');  
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(6px);
+}
+.content{
+  border:3px solid white;
+   background-image: url('/images/quiz.avif'); 
+   backdrop-filter: blur(25px);
+   background-size: cover;
+  border-radius: 15px;
+  height: 82vh;
+  width: 50vh;
+margin-top: 55px;
+background-color: rgb(163, 18, 171);
+
+color: rgb(28, 4, 25);
+
+  
+}
+.head{
+  margin-top: 10px;
+  font-size: 45px;
+  font-weight: 900;
+
+}
+.ques{
+  color:#000;
+  font-weight: 900;
+}
+.head2{
+  font-weight: 700;
+  margin-top: 25px;
+}
+.options{
+  display:grid;
+  grid-template-columns: repeat(1,150px);
+  justify-content: center;
+  gap: 20px;
+}
+.next{
+  margin-top: 25px;
+ margin-left: 300px;
+ color: alicebluec;
+ width: 80px;
+ font-size: 20px;
+ background-color: rgb(207, 187, 52);
+}
+.brain{
+  font-size: 85px;
+ 
+
+}
+.page{
+  color: rgb(232, 234, 235);
+
+}
+.option-label{
+  margin: 35px 15px  ;
+  font-size: 25px;
+  color: #000;
+  font-weight: 600;
+gap: 15px;
+  border: 2px solid white;
+  border:2px solid white ; 
+  border-radius: 5px;
+ 
+  background-color: rgb(224, 237, 235);
+  
+}
+.option-label:hover{
+  background-color: rgb(127, 155, 255);
+}
+.option-label.selected{
+  background-color: rgb(15, 188, 110);
+}
+ .nextbtn{
+  margin-top: 30px;
+
+font-size: 20px;
+
+background-color: rgb(12, 76, 194);
+color: white;
+} 
+.backbtn{
+  margin-top: 30px;
+
+font-size: 20px;
+
+background-color: rgb(12, 76, 194);
+color: white;
+
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 15px;
+  
+  
+}
+.result{
+  margin-top: 95px;
+  display: block;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(5, 0, 10);
+  font-weight: 900;
+  
+}
+.submitbtn{
+  background-color: rgb(33, 30, 210);
+  color: aliceblue;
+  font-size: 25px;
+}
+.homebtn{
+  margin-top: 250px;
+  font-size: 15px;
+  width: 130px;
+  display: block;
+  justify-content: end;
+margin-left: 200px;
+border: 2px solid white;
+font-weight: 700;
+background-color: blue;
+color: aliceblue;
+}
+.timer{
+  font-weight: 700;
+}
